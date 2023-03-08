@@ -15,3 +15,4 @@ console.log(Array.prototype.isPrototypeOf(EZArray.prototype)); // => true
 // extends keyword and is not possible before ES6.
 console.log(Array.isPrototypeOf(EZArray)); // => true
 console.log(Array.isPrototypeOf(EZArray.prototype)); // => false
+console.log(Array === EZArray.prototype); // => false
