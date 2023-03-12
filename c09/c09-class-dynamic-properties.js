@@ -22,4 +22,4 @@ MyObject.prototype.dynamicMethod = function () {
 
 console.log(MyObject.prototype.method); // [Function: method]
 console.log(MyObject.prototype.dynamicMethod); // [Function (anonymous)]
-console.log(myobj.dynamicMethod());
+console.log(myobj.dynamicMethod()); // This is a dynamically added property!!!
