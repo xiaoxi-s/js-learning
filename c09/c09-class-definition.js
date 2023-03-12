@@ -13,8 +13,9 @@ AnotherObj.prototype = {
 };
 
 console.log(AnotherObj); // [Function: AnotherObj]
-console.log(AnotherObj.__proto__); // {}
-console.log(AnotherObj.MyObject); // undefined
+// a deprecated accessor statement:
+// console.log(AnotherObj.__proto__); // {}
+console.log(AnotherObj.AnotherObj); // undefined
 console.log(AnotherObj.prototype); // prints the following:
 // {
 //   constructor: [Function: AnotherObj],
