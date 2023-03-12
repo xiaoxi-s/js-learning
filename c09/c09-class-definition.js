@@ -13,6 +13,7 @@ AnotherObj.prototype = {
 };
 
 console.log(AnotherObj); // [Function: AnotherObj]
+console.log(AnotherObj.__proto__); // {}
 console.log(AnotherObj.MyObject); // undefined
 console.log(AnotherObj.prototype); // prints the following:
 // {
